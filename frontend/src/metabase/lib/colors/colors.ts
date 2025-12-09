@@ -614,6 +614,30 @@ const getColorConfig = (settings: ColorSettings = {}) => ({
     light: "#7172AD",
     dark: "#7172AD",
   },
+  accent8: {
+    light: "#f98d4d",
+    dark: "#f98d4d",
+  },
+  accent9: {
+    light: "#6a41ec",
+    dark: "#6a41ec",
+  },
+  accent10: {
+    light: "#3fd0fb",
+    dark: "#3fd0fb",
+  },
+  accent11: {
+    light: "#f66531",
+    dark: "#f66531",
+  },
+  accent12: {
+    light: "#3ef7b9",
+    dark: "#3ef7b9",
+  },
+  accent13: {
+    light: "#074383",
+    dark: "#074383",
+  },
   "bg-primary": {
     light: baseColors.white,
     dark: baseColors.orion[110],

@@ -5,7 +5,7 @@ import type { ColorGetter } from "metabase/visualizations/types";
 import { colors, getColors } from "./colors";
 import type { ColorName, ColorPalette } from "./types";
 
-export const ACCENT_COUNT = 8;
+export const ACCENT_COUNT = 14;
 
 export const originalColors = getColors();
 
@@ -33,6 +33,12 @@ export const aliases: Record<string, (palette: ColorPalette) => string> = {
   "accent5-light": (palette) => tint(color(`accent5`, palette)),
   "accent6-light": (palette) => tint(color(`accent6`, palette)),
   "accent7-light": (palette) => tint(color(`accent7`, palette)),
+  "accent8-light": (palette) => tint(color(`accent8`, palette)),
+  "accent9-light": (palette) => tint(color(`accent9`, palette)),
+  "accent10-light": (palette) => tint(color(`accent10`, palette)),
+  "accent11-light": (palette) => tint(color(`accent11`, palette)),
+  "accent12-light": (palette) => tint(color(`accent12`, palette)),
+  "accent13-light": (palette) => tint(color(`accent13`, palette)),
 
   "accent0-dark": (palette) => shade(color(`accent0`, palette)),
   "accent1-dark": (palette) => shade(color(`accent1`, palette)),
@@ -42,6 +48,12 @@ export const aliases: Record<string, (palette: ColorPalette) => string> = {
   "accent5-dark": (palette) => shade(color(`accent5`, palette)),
   "accent6-dark": (palette) => shade(color(`accent6`, palette)),
   "accent7-dark": (palette) => shade(color(`accent7`, palette)),
+  "accent8-dark": (palette) => shade(color(`accent8`, palette)),
+  "accent9-dark": (palette) => shade(color(`accent9`, palette)),
+  "accent10-dark": (palette) => shade(color(`accent10`, palette)),
+  "accent11-dark": (palette) => shade(color(`accent11`, palette)),
+  "accent12-dark": (palette) => shade(color(`accent12`, palette)),
+  "accent13-dark": (palette) => shade(color(`accent13`, palette)),
 };
 
 /**
