@@ -614,6 +614,8 @@ const getColorConfig = (settings: ColorSettings = {}) => ({
     light: "#7172AD",
     dark: "#7172AD",
   },
+
+  /******* add 6 new colors for chart axis *******/
   accent8: {
     light: "#f98d4d",
     dark: "#f98d4d",
@@ -638,6 +640,8 @@ const getColorConfig = (settings: ColorSettings = {}) => ({
     light: "#074383",
     dark: "#074383",
   },
+  /******* add 6 new colors for chart axis *******/
+
   "bg-primary": {
     light: baseColors.white,
     dark: baseColors.orion[110],
